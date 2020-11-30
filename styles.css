@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  width: 300px;
+}
+
+.home__chimney {
+  height: 100px;
+  width: 50px;
+}
+
+.home__chimney_blue {
+  background-color: blue;
+}
+
+.home__facade {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.home__facade_pink {
+  background: #ED7792;
+}
+
+.facade__window {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 120px;
+  left: 10%;
+}
+
+.facade__window_purple {
+  background-color: purple;
+}
+
+.facade__door {
+  height: 180px;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.facade__door_violet {
+  background: rgb(173, 133, 158);
+}
+
+.home__chimney_pink {
+  background: #ed7792;
+}
+
+.home__facade_purple {
+  background-color: purple;
+}
+
+.facade__window_violet {
+  background: rgb(173, 133, 158);
+}
+
+.facade__door_blue {
+  background-color: blue;
+}
+
+.home__chimney_purple {
+  background-color: purple;
+}
+
+.home__facade_violet {
+  background: rgb(173, 133, 158);
+}
+
+.facade__window_blue {
+  background-color: blue;
+}
+
+.facade__door_pink {
+  background: #ed7792;
+}
+
+.home__chimney_violet {
+  background: rgb(173, 133, 158);
+}
+
+.home__facade_blue {
+  background-color: blue;
+}
+
+.facade__window_pink {
+  background: #ed7792;
+}
+
+.facade__door_purple {
+  background-color: purple;
+}
