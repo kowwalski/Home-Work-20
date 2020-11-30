@@ -1,50 +1,55 @@
 body {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.home {width: 300px;
+.home {
+  width: 300px;
 }
 
 .home__chimney {
-height: 100px;
-width: 50px;
+  height: 100px;
+  width: 50px;
 }
 
 .home__chimney_blue {
 }
+
 .home__facade {
-width: 300px;
-height: 300px;
-position: relative;
+  width: 300px;
+  height: 300px;
+  position: relative;
 }
 
 .home__facade_pink {
+  background: #ED7792;
 }
 
 .facade__window {
-width: 96px;
-height: 96px;
-position: absolute;
-top: 120px;
-left: 10%;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 120px;
+  left: 10%;
 }
 
 .facade__window_purple {
 }
+
 .facade__door {
-height: 180px;
-width: 80px;
-position: absolute;
-bottom: 0;
-right: 10%;
+  height: 180px;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
 }
 
 .facade__door_violet {
 }
 
 .home__chimney_pink {
+  background: #ed7792;
 }
 
 .home__facade_purple {
@@ -66,6 +71,7 @@ right: 10%;
 }
 
 .facade__door_pink {
+  background: #ed7792;
 }
 
 .home__chimney_violet {
@@ -75,6 +81,7 @@ right: 10%;
 }
 
 .facade__window_pink {
+  background: #ed7792;
 }
 
 .facade__door_purple {
